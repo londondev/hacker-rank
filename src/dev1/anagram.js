@@ -1,5 +1,1 @@
-const sampleFunc=(a,b)=>{
-  return a+b;
-};
-
-console.log(sampleFunc(5,3));
+//https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
