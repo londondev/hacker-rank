@@ -25,6 +25,17 @@ function main() {
     var a = "cde";
     var b = "abc";
 
+    if(!a)
+    {
+      console.log(b.length);
+      return
+    }
+
+    if(!b){
+      console.log(a.length);
+      return;
+    }
+
     let firstArr=a.split("");
     let firstArrCopy=Object.assign([],firstArr);
     let secondArr=b.split("");
